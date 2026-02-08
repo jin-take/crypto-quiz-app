@@ -41,12 +41,12 @@ class AppTheme {
       brightness: Brightness.light,
     ),
     scaffoldBackgroundColor: whiteColor,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       backgroundColor: primaryColor,
       foregroundColor: whiteColor,
       elevation: 0,
       centerTitle: true,
-      titleTextStyle: const TextStyle(
+      titleTextStyle: TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: whiteColor,
@@ -110,12 +110,12 @@ class AppTheme {
       brightness: Brightness.dark,
     ),
     scaffoldBackgroundColor: const Color(0xFF121212),
-    appBarTheme: AppBarTheme(
-      backgroundColor: const Color(0xFF1F1F1F),
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Color(0xFF1F1F1F),
       foregroundColor: whiteColor,
       elevation: 0,
       centerTitle: true,
-      titleTextStyle: const TextStyle(
+      titleTextStyle: TextStyle(
         fontSize: 20,
         fontWeight: FontWeight.bold,
         color: whiteColor,
@@ -188,7 +188,7 @@ class AppTheme {
       onError: whiteColor,
     ),
     scaffoldBackgroundColor: whiteColor,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
       backgroundColor: blackColor,
       foregroundColor: whiteColor,
       elevation: 2,

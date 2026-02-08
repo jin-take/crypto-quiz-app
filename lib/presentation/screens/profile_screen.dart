@@ -116,7 +116,7 @@ class _StatCard extends StatelessWidget {
     return Expanded(
       child: Card(
         elevation: 0,
-        color: Theme.of(context).colorScheme.surfaceVariant,
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
         child: Padding(
           padding: const EdgeInsets.all(12),
           child: Column(

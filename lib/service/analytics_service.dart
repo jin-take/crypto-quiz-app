@@ -24,7 +24,7 @@ class AnalyticsService {
   }) async {
     if (_analytics == null) return;
     try {
-      await _analytics!.logEvent(
+      await _analytics.logEvent(
         name: name,
         parameters: parameters,
       );

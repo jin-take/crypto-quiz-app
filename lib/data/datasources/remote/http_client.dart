@@ -64,7 +64,7 @@ class HttpClient {
         await Future<void>.delayed(delay);
         if (AppConfig.enableLogging) {
           // ignore: avoid_print
-          print('Retrying request (${attempt}/$maxRetries): ${e.message}');
+          print('Retrying request ($attempt/$maxRetries): ${e.message}');
         }
       }
     }
