@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "quizzes": [
+    {
+      "id": "quiz_001",
+      "category": "bitcoin",
+      "difficulty": "beginner",
+      "question": "ビットコインが最初にリリースされた年は？",
+      "options": ["2008年", "2009年", "2010年", "2011年"],
+      "correct_answer_index": 1,
+      "explanation": "ビットコインは2009年1月3日のジェネシスブロック生成により始まりました。",
+      "explanation_image_url": null,
+      "tags": ["bitcoin", "history", "基礎"],
+      "point_weight": 1,
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "quiz_002",
+      "category": "ethereum",
+      "difficulty": "intermediate",
+      "question": "Ethereumのコンセンサスメカニズムは2022年に何へ移行した？",
+      "options": [
+        "Proof of Authority",
+        "Proof of Stake",
+        "Delegated Proof of Stake",
+        "Proof of History"
+      ],
+      "correct_answer_index": 1,
+      "explanation": "Ethereumは2022年9月のマージでPoSへ移行しました。",
+      "explanation_image_url": null,
+      "tags": ["ethereum", "consensus", "技術"],
+      "point_weight": 2,
+      "created_at": "2026-01-05T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "quiz_003",
+      "category": "altcoins",
+      "difficulty": "advanced",
+      "question": "ビットコインのブロック生成間隔は平均何分？",
+      "options": ["5分", "10分", "15分", "20分"],
+      "correct_answer_index": 1,
+      "explanation": "ビットコインは平均10分のブロック生成を目標としています。",
+      "explanation_image_url": null,
+      "tags": ["bitcoin", "mining"],
+      "point_weight": 3,
+      "created_at": "2026-01-10T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "quiz_004",
+      "category": "bitcoin",
+      "difficulty": "beginner",
+      "question": "暗号資産の秘密鍵を保持するための仕組みは？",
+      "options": ["ウォレット", "ノード", "マイナー", "取引所"],
+      "correct_answer_index": 0,
+      "explanation": "秘密鍵はウォレットで安全に管理します。",
+      "explanation_image_url": null,
+      "tags": ["wallet", "基礎"],
+      "point_weight": 1,
+      "created_at": "2026-01-12T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "quiz_005",
+      "category": "ethereum",
+      "difficulty": "intermediate",
+      "question": "Ethereumでスマートコントラクトを実行するための手数料は？",
+      "options": ["Gas", "Fee Rate", "Stake", "Reward"],
+      "correct_answer_index": 0,
+      "explanation": "EthereumではGasと呼ばれる手数料が必要です。",
+      "explanation_image_url": null,
+      "tags": ["ethereum", "smart_contract"],
+      "point_weight": 2,
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    },
+    {
+      "id": "quiz_006",
+      "category": "altcoins",
+      "difficulty": "advanced",
+      "question": "Proof of Stakeにおける報酬の主な要因は？",
+      "options": ["ハッシュレート", "保有量とロック期間", "電力消費", "ノード数"],
+      "correct_answer_index": 1,
+      "explanation": "PoSでは保有量やステーキング期間が報酬に影響します。",
+      "explanation_image_url": null,
+      "tags": ["pos", "staking"],
+      "point_weight": 3,
+      "created_at": "2026-01-20T00:00:00Z",
+      "updated_at": "2026-02-08T00:00:00Z"
+    }
+  ]
+}
